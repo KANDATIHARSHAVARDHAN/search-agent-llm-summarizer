@@ -39,18 +39,14 @@ search-agent-llm-summarizer/
 
 ## ⚡ Quick Setup
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/search-agent-llm-summarizer.git
-cd search-agent-llm-summarizer
-```
 
-### 2. Install Dependencies
+
+### 1. Install Dependencies
 ```bash
 pip install streamlit google-api-python-client langchain langchain-google-genai
 ```
 
-### 3. Configure API Keys
+### 2. Configure API Keys
 
 **Get API Keys:**
 - **Google API Key** and **Custom Search Engine (CSE ID)** → [Setup Guide](https://developers.google.com/custom-search/v1/introduction)
@@ -67,7 +63,7 @@ SEARCH_ENGINE_ID = "your-search-engine-id"
 GEMINI_API_KEY = "your-gemini-api-key"
 ```
 
-### 4. Run the App
+### 3. Run the App
 ```bash
 streamlit run app.py
 ```
